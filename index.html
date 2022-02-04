@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BispoFlix</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <header id="mainHeader">
+
+    <div class="logoHeader">
+      <img src="/imgs/BispoFlix.png" alt="Logo Bispo-Flix">
+    </div>
+    
+    <div class="infoHeader">
+      <ul>
+        <li class="info">Início</li>
+        <li class="info">Filmes</li>
+        <li class="info">Séries</li>
+        <input type="text" id="filme" name="filme" placeholder="Insira o endereço da imagem">
+        <button onclick="adicionarFilme()">Adicionar Filme</button>
+      </ul>
+    </div>
+
+    <div class="searchProfile">
+      <ul>
+        <li><img class="iconesSP" src="/imgs/lupa.png" alt="Pesquisar"></li>
+        <li id="infoInfantil">Infantil</li>
+        <li><img class="iconesSP" src="/imgs/sino.png" alt="Notificacoes"></li>
+        <li><img id="imgProfile" src="/imgs/perfil.png" alt="Profile"></li>
+        <li><img class="setaBaixo" src="/imgs/seta-baixo.png" alt="Pesquisar"></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="banner">
+      <img src="/imgs/banner2.jpg" alt="Banner">
+    </div>
+    
+    <p class="catName">Filmes</p>
+    <div id="listaFilmes"></div>
+    <p class="catName">Séries</p>
+
+  </main>
+
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
